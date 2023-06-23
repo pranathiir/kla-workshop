@@ -15,7 +15,7 @@ color_count = {}
 totalDefects = []
 
 for i in range(1, 6):
-    img = Image.open("D:\Placement\kla\level1wafer_image_{0}.png".format(i))
+    img = Image.open("wafer_image_{0}.png".format(i))
     img = img.convert('RGB')
     pixels = img.load()
     
